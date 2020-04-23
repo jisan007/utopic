@@ -1,0 +1,108 @@
+/* font importing start */
+@font-face{
+	src: url('assets/fonts/Geogia/Georgia Regular font.ttf');
+	font-family: 'Georgia Regular';
+	src: url('assets/fonts/Geogia/georgia bold italic.ttf');
+	font-family: 'georgia bold italic';
+}
+/* font importing end */
+
+body{
+	background-color: #d0d0d0;
+}
+
+/* header area start */
+header div.header{
+	background-color: #ffffff;
+	padding: 0px 35px;
+}
+
+.header-top-border{
+	height: 10px;
+	width: 100%;
+	background-color: #894aa3; 
+}
+
+.search-box{
+	background-color: #ebebea;
+	position: relative;
+	margin-top: 20px;
+}
+
+.search-icon{
+	position: absolute;
+	top: 26px;
+	right: 26px;
+	height: 25px;
+	width: 25px;
+	background: white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 25px;
+	color: #894aa3
+}
+
+.menu-logo{
+	margin-top: 25px;
+	padding-bottom: 35px;
+}
+
+.header-nav{
+	font-family: 'Georgia Regular';
+	font-size: 15px;
+	color: #666666;
+}
+
+.header-nav:hover{
+	color: black;
+	text-decoration: none;
+}
+/* header area end */
+
+/* main area start */
+.body-top{
+	background-color: #ebebea;
+	text-align: center;
+
+}
+
+.body-top-text{
+	width: 80%;
+	margin: 0px auto;
+	padding: 22px 0px; 
+	font-family: 'georgia bold italic';
+	font-size: 22px;
+}
+
+.carousel-item img{
+	width: 100%;
+	height: 600px;
+}
+
+.service{
+	background-color: #ffffff;
+	padding: 75px 25px 50px 0px;
+}
+
+.icon-image{
+	width: 50px;
+	height: 50px;
+	margin-top: 7px;
+}
+
+.row-align{
+	margin: 0px auto;
+	text-align: justify;
+}
+
+.row-align2{
+	margin: 0px auto;
+}
+
+.round-li li{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+
+}
+/* main area end */
